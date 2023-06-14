@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Ex3</title>
+</head>
+<body>
+    <h1>Formulario de registro</h1>
+    <form>
+        <div>
+            <label for="Nombre">Nombre:</label>
+            <input type="text" id="Nombre" required>    
+        </div>
+        <br>
+        <div>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" id="Apellido" required>
+        </div>
+        <br>
+        <div>
+            <label>Modalidad de Cursada:</label>
+            <input type="radio" id="On-Demand" name="modo"/>
+            <label for="On-Demand">On-Demand</label>
+            <input type="radio" id="En Vivo" name="modo"/>
+            <label for="En Vivo">En Vivo</label>
+
+            <!-- <input type="radio" id="On-Demand" name="Modalidad de Cursada:" />
+            <label for="On-Demand"><On-Demand></label>
+            <input type="radio" id="En Vivo" name="Modalidad de Cursada:" />
+            <label for="En Vivo"><EnVivo></label>     -->
+        </div>
+        <br>
+        <div>
+            <label for="Email">Email:</label>
+            <input type="email" id="Email" required>
+        </div>
+        <br>
+        <div>
+            <input type="checkbox" id="Info" required>
+            <label for="Info">Deseo recibir información dobre nuevoa posteos en la plataforma de NUCBA.</label>
+        </div>
+            <br>
+        <div>
+            <input type="checkbox" id="terminos" required>
+            <label for="terminos">Declaro que leí los terminos y condiciones y estoy listo para convertirme en desarrollador web Full Stack.</label>
+        </div>
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
